@@ -1,0 +1,89 @@
+.container-team {
+    background: #F5F4FA;
+    width: 1519px;
+    height: 648px;
+  }
+  
+  .team__list {
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    & > li {
+      background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    }
+    
+  }
+  
+  .team__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+    margin-bottom: 50px;
+  }
+  
+  .member__name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+    padding-bottom: 10px;
+  }
+  
+  .member__skill {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--color-text);
+    padding-bottom: 16px;
+  }
+  
+  .members {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .member__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0;
+  }
+
+  .member__link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    fill: #AFB1B8;
+    &:hover, &:hover a {
+      background-color: #2196f3;
+      fill: #FFFFFF;
+    }
+  }
+  
+  .member__item {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: fill 250ms linear, background-color 250ms linear;
+    &:focus {
+      fill: #FFFFFF;
+      background-color: #2196f3;
+    }
+    fill: #AFB1B8;
+  }
